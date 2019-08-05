@@ -10,7 +10,7 @@ Note that this is a beta version and may not be applicable for all the cases of 
 ## Datasets
 The data in the sample folder has been processed, and the user can do the same process by average.py. The example is an indentation simulation of Ni-Ti alloy at 325K.
 ## Dependencies
-The script has been tested under Python 3.6.X and Ovito 3.0.0 dev41x. Please refer to the "requirements.txt" for the required python packages.
+The script has been tested under Python 3.6.X and Ovito 3.0.0 dev41x. Please refer to the "requirements.md" for the required python packages.
 ## Run the Code
 ### Average.py
 The goal of average.py is to average the simulated files of Lammps to reduce the errors caused by thermal oscillation. The code that the user needs to change is as follows:
