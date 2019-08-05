@@ -75,8 +75,8 @@ When set, it looks like this.
 ## Contributing
 This method is developed by Yi-Ming Tseng, Hung-Yuan Lu, Chia-Wei Yang, Jo-Fan Wu, Ji-Ting Li, Hsin-Yu Chen, Prof. Chuin-Shan Chen and Prof. Nien-Ti Tsou*. If this method is useful for your work, please cite the papers mentioned above. Many thanks.
 
-* The corresponding author: 
-Nien-Ti Tsou (tsounienti@nctu.edu.tw) 
-Associate professor
-Department of Materials Science and Engineering
+* The corresponding author:  
+Nien-Ti Tsou (tsounienti@nctu.edu.tw)  
+Associate professor  
+Department of Materials Science and Engineering  
 National Chiao Tung University, Taiwan
