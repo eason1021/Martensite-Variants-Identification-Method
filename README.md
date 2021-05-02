@@ -39,15 +39,7 @@ node_ref = import_file('/Users/file_path/ref')
 ```
 >Line 772 : Set the output file location, as same as the average.py.
 ## Visualize post-processing results
-After using MVIM.py, we can get the dump file with variants information and use the visualization software Ovito to visualize variants with our own colormap.
-### Step1
-Open the dump file in Ovito and choose color coding in the modification in the upper right corner.
-![image](https://github.com/eason1021/MVIM-beta/blob/master/images/unnamed.png)
-### Step2
-In the adjustment window below, change the end value to 23 and click 'hot' to Load custom colormap
-Then click on the colormap.jpg to see the results of the microstructure identification.
-When set, it looks like this.
-![image](https://github.com/eason1021/MVIM-beta/blob/master/images/unnamed%20(1).png)
+After using MVIM.py, we can get the dump file with variants information and use the visualization software Ovito to visualize(color coding) variants with our own colormap.
 ## Contributing
 This method is developed by Yi-Ming Tseng, Hung-Yuan Lu, Chia-Wei Yang, Jo-Fan Wu, Ji-Ting Li, Hsin-Yu Chen, Prof. Chuin-Shan Chen and Prof. Nien-Ti Tsou*. If this method is useful for your work, please cite the papers mentioned above. Many thanks.
 
