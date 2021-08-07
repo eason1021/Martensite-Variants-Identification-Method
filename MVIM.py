@@ -12,8 +12,8 @@ import datetime
 starttime = datetime.datetime.now()
 
 #File path
-file_path = '/data2/average.*'
-ref_path = '/data2/large_model.dump'
+file_path = 'example_data/average_50_30.dump'
+ref_path = 'example_data/ref.dump'
 
 #parameter area
 #tolerance
@@ -769,7 +769,7 @@ for frame_index in range(0, node.source.num_frames, 1):
 	rotated_data.particles_.create_property('Variant', data = mvim_type)
 	rotated_data.particles_.create_property('Score', data = mvim_score)
 	
-	export_file(rotated_data, '/data2/post_50_y_%s.dump'%frame_index, 'lammps/dump',columns = ['Particle Identifier','Particle Type','Position.X','Position.Y','Position.Z','Variant','Score'],frame = frame_index)
+	export_file(rotated_data, 'example_data/post_50_%s.dump'%frame_index, 'lammps/dump',columns = ['Particle Identifier','Particle Type','Position.X','Position.Y','Position.Z','Variant','Score'],frame = frame_index)
 
 endtime = datetime.datetime.now()
 print (endtime - starttime)
